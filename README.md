@@ -113,6 +113,22 @@ export const BASE_URL = 'http://YOUR_LOCAL_IP:8080/HealMeBot';
 // or use Ngrok
 export const BASE_URL = 'https://YOUR_NGROK_URL/HealMeBot';
 
+## Backend Setup
+
+In `GenerateSuggestionsServlet.java`, update the `GEMINI_API_KEY` to match your gemini api key:
+
+private static final String GEMINI_API_KEY = "YOUR GEMINI API KEY";
+
+## Install dependencies:
+
+cd HealMeBot
+npm install
+
+
+Run:
+npx expo start
+
+
 
 
 
