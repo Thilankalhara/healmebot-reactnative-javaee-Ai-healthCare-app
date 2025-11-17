@@ -40,12 +40,35 @@ For permissions or inquiries, contact: **thilanKalhara8@gmail.com**
 
 ## Screenshots
 
-![Splash Screen](./Screenshots/splash.png)  
-![Home Screen](./Screenshots/home.png)  
-![Input Screen](./Screenshots/input.png)  
-![Report Screen1](../Screenshots/report1.png)
-![Report_Screen2](./Screenshots/report2.png)    
-![Save PDF](../Screenshots/pdf.png) 
+### 🟦 Splash Screen
+<p align="center">
+  <img src="./Screenshots/splash.png" width="40%" />
+</p>
+
+### 🟩 Home Screen
+<p align="center">
+  <img src="./Screenshots/home.png" width="40%" />
+</p>
+
+### 🟨 Input Screen
+<p align="center">
+  <img src="./Screenshots/input.png" width="40%" />
+</p>
+
+### 🟧 Report Screen (1)
+<p align="center">
+  <img src="./Screenshots/report1.png" width="40%" />
+</p>
+
+### 🟪 Report Screen (2)
+<p align="center">
+  <img src="./Screenshots/report2.png" width="40%" />
+</p>
+
+### 🟥 PDF Save Option
+<p align="center">
+  <img src="./Screenshots/pdf.png" width="40%" />
+</p>
 
 ---
 
@@ -89,6 +112,7 @@ In `api.ts`, update the `BASE_URL` to match your backend server:
 export const BASE_URL = 'http://YOUR_LOCAL_IP:8080/HealMeBot';
 // or use Ngrok
 export const BASE_URL = 'https://YOUR_NGROK_URL/HealMeBot';
+
 
 
 
