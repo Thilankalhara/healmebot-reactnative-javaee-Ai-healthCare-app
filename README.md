@@ -38,18 +38,6 @@ For permissions or inquiries, contact: **thilanKalhara8@gmail.com**
 
 ---
 
-## Screenshots
-
-![Splash Screen](./assets/screenshots/splash.png)  
-![Home Screen](./assets/screenshots/home.png)  
-![Input Screen](./assets/screenshots/input.png)  
-![Report Screen1](./assets/screenshots/report1.png)
-![Report Screen2](./assets/screenshots/report2.png)    
-![Save PDF](./assets/screenshots/pdf.png)    
-![Demo](./assets/screenshots/demo.mp4)  
-
----
-
 
 ## Authors
 
@@ -91,9 +79,3 @@ In `api.ts`, update the `BASE_URL` to match your backend server:
 export const BASE_URL = 'http://YOUR_LOCAL_IP:8080/HealMeBot';
 // or use Ngrok
 export const BASE_URL = 'https://YOUR_NGROK_URL/HealMeBot';
-
-## Backend Setup
-
-In `GenerateSuggestionsServlet.java`, update the `GEMINI_API_KEY` to match your gemini api key:
-
-private static final String GEMINI_API_KEY = "YOUR GEMINI API KEY";
